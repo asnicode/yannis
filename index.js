@@ -7,10 +7,10 @@ function goalguest(){
   
   
 }
-let count2 = 0
+let count3 = 0
 function goalhome(){
-  count2 += 1
-  goalHome.textContent = count2
+  count3 += 1
+  goalHome.textContent = count3
   
   
 }
