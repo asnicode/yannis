@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background-image:url("https://pbs.twimg.com/media/GsrtgNCXsAANgRW?format=jpg&name=large");
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    
+    justify-content: space-around;
+    margin-top: 100px;
+}
+#heading3{
+    color: white;
+    
+}
+.scoreboard{
+    
+    background: black;
+    width: 30px;
+}
+#guest-team-btn{
+    color: yellow;
+    text-shadow:0px 1px 5px black;
+    background: linear-gradient(blue,white,red);
+    width: 80px;
+    height: 50px;
+}
+#home-team-btn{
+    color: yellow;
+    text-shadow:0px 1px 5px black;
+    background: linear-gradient(red,yellow,red);
+    width: 80px;
+    height: 50px;
+    margin-right: 10px;
+}
+#goal-count-guest{
+    color: aqua;
+    padding: 10px;
+    text-align: center;
+}
+#goal-count-home{
+    color: red;
+    padding: 10px;
+    text-align: center;
+}
+#home-team-btn:hover{
+    background-image:url("https://media.tenor.com/j-dpWMhkEhQAAAAM/ly304.gif");
+    background-size: cover;
+    
+}
+#guest-team-btn:hover{
+    background-image:url("https://media1.tenor.com/m/LpZgNgUBxpYAAAAd/psg-paris.gif");
+    background-size: cover;
+    
+}
